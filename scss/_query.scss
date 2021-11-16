@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+   .header {
+      &__content {
+         flex-direction: column;
+      }
+
+      &__logo {
+         margin-bottom: 30px;
+      }
+   }
+
+
+}
+
+@media (max-width: 530px) {
+   .header-list {
+      flex-direction: column;
+
+      &__item {
+         margin: 0px 0px 20px 0px;
+
+         &:last-child {
+            margin: 0px;
+         }
+      }
+   }
+
+   .hero__content {
+      padding-top: 400px;
+   }
+
+
+}
+
+@media (max-width: 800px) {
+   .news__title {
+      left: -20px;
+   }
+}
